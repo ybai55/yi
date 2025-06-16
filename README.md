@@ -10,3 +10,4 @@ TODO:
   - [ ] Using GPT Api.
 - [ ] Database
   - [ ] Read data from sqlite3
+- [ ] Change to Langchain as the Agent Framework.

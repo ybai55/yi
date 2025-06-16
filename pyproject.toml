@@ -5,7 +5,13 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "langgraph>=0.4.8",
     "mlflow>=2.22.1",
+    "openai>=1.84.0",
     "openai-agents>=0.0.17",
     "ruff>=0.11.13",
 ]
+
+[[tool.uv.index]]
+url = "https://mirrors.aliyun.com/pypi/simple/"
+name = "aliyun"
