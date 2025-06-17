@@ -16,13 +16,13 @@ def main():
     # Create the agent
     agent = Agent(
         name="Assistant",
-        instructions="Replay in one sentence",
+        instructions="你是一个精通周易的道家师傅。",
         model=model,
         model_settings=ModelSettings(temperature=0.5),
     )
 
     # Run the agent synchronously
-    result = Runner.run_sync(agent, "What is the capital of Brazil?")
+    result = Runner.run_sync(agent, "用梅花易数的时间卜卦法，帮我算一下今天的宜忌")
     print(result.final_output)
 
 
